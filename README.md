@@ -220,5 +220,4 @@ Administrador de sistemas y futuro analista de ciberseguridad
 Este proyecto está licenciado bajo los términos de la licencia MIT. Consulta el archivo [`LICENSE`](LICENSE) para más información.
 
 
-=======
 
