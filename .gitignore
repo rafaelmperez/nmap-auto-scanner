@@ -2,3 +2,9 @@ venv/
 reports/
 logs/
 __pycache__/
+
+echo ".*~" >> .gitignore
+echo ".~lock.*" >> .gitignore
+git add .gitignore
+git commit -m "Ignorar archivos de bloqueo temporales"
+git push

@@ -192,6 +192,29 @@ Esto te permite detectar nuevas exposiciones o cambios sospechosos automáticame
 [✓] Escaneo completado. Resultados guardados en: ./reports/2025-11-09_00-56
 [~] Comparación con escaneo anterior completada. Reporte: ./reports/2025-11-09_00-56/diff_report.txt
 ```
+## 📸 Ejemplo de salida (JSON + diff_report)
+
+A continuación un ejemplo real de salida: a la izquierda se muestra la salida JSON parseada con los puertos y servicios detectados; a la derecha, el `diff_report.txt` indicando que **no se detectaron diferencias** entre escaneos.
+
+<figure>
+  <img src="./images/report_snapshot.png" alt="Salida JSON y diff_report" style="max-width:100%;height:auto;">
+  <figcaption>Figura — Ejemplo de `results.json` (izq.) y `diff_report.txt` (der.). <strong>Nota:</strong> datos sensibles redactados.</figcaption>
+</figure>
+
+### Ejemplo reducido (extracto JSON)
+```json
+{
+  "45.33.32.156": {
+    "status": "up",
+    "protocols": {
+      "tcp": [
+        { "port": 22, "state": "open", "name": "ssh", "product": "OpenSSH", "version": "6.6.1p1 Ubuntu 2ubuntu2.13" },
+        { "port": 80, "state": "open", "name": "http", "product": "Apache httpd", "version": "2.4.7" },
+        { "port": 9929, "state": "open", "name": "nping-echo" }
+      ]
+    }
+  }
+}
 
 ---
 
