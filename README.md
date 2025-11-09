@@ -201,21 +201,6 @@ A continuación un ejemplo real de salida: a la izquierda se muestra la salida J
   <figcaption>Figura — Ejemplo de `results.json` (izq.) y `diff_report.txt` (der.). <strong>Nota:</strong> datos sensibles redactados.</figcaption>
 </figure>
 
-### Ejemplo reducido (extracto JSON)
-```json
-{
-  "45.33.32.156": {
-    "status": "up",
-    "protocols": {
-      "tcp": [
-        { "port": 22, "state": "open", "name": "ssh", "product": "OpenSSH", "version": "6.6.1p1 Ubuntu 2ubuntu2.13" },
-        { "port": 80, "state": "open", "name": "http", "product": "Apache httpd", "version": "2.4.7" },
-        { "port": 9929, "state": "open", "name": "nping-echo" }
-      ]
-    }
-  }
-}
-
 ---
 
 ## 🧩 Mejoras futuras
@@ -233,7 +218,6 @@ A continuación un ejemplo real de salida: a la izquierda se muestra la salida J
 Administrador de sistemas y futuro analista de ciberseguridad
 🌐 [www.rafaelmperez.com](https://rafaelmperez.com)
 ✉️ [rmp.blueteam@proton.me](mailto:rmp.blueteam@proton.me)
-<<<<<<< HEAD
 🔗 [LinkedIn](https://www.linkedin.com/in/rafaelmperez)
 
 ---
