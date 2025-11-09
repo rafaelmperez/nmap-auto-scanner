@@ -1,9 +1,7 @@
-Perfecto, Rafael. Aquí tienes tu `README.md` completamente **optimizado a nivel profesional** para destacar en GitHub como un proyecto técnico sólido en ciberseguridad. Incluye **estructura avanzada**, **badges**, **tabla de contenidos**, instrucciones claras y una presentación pensada para reclutadores técnicos y responsables de seguridad defensiva.
-
----
-
-````markdown
 # 🔍 nmap-auto-scanner
+=======
+🔍 nmap-auto-scanner
+>>>>>>> 6764e4df61f1e1e94f1831768b760d4a100bbd1e
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -214,6 +212,7 @@ Esto te permite detectar nuevas exposiciones o cambios sospechosos automáticame
 Administrador de sistemas y futuro analista de ciberseguridad
 🌐 [www.rafaelmperez.com](https://rafaelmperez.com)
 ✉️ [rmp.blueteam@proton.me](mailto:rmp.blueteam@proton.me)
+<<<<<<< HEAD
 🔗 [LinkedIn](https://www.linkedin.com/in/rafaelmperez)
 
 ---
@@ -222,4 +221,6 @@ Administrador de sistemas y futuro analista de ciberseguridad
 
 Este proyecto está licenciado bajo los términos de la licencia MIT. Consulta el archivo [`LICENSE`](LICENSE) para más información.
 
+
+=======
 
