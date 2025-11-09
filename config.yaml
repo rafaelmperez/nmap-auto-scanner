@@ -1,0 +1,20 @@
+targets:
+  - "192.168.1.0/24"
+  - "scanme.nmap.org"
+
+nmap_options: "-sS -sV -T4 --script vuln"
+output_dir: "./reports"
+
+notifications:
+  email:
+    enabled: false
+    smtp_server: "smtp.protonmail.com"
+    port: 465
+    sender: "rmp.blueteam@proton.me"
+    password: "REEMPLAZA_ESTO"
+    recipient: "destinatario@ejemplo.com"
+
+  telegram:
+    enabled: false
+    bot_token: "TU_TOKEN"
+    chat_id: "123456789"

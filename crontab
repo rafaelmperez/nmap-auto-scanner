@@ -1,0 +1,1 @@
+0 2 * * * /home/rafaelmp/Proyectos/nmap_auto_scanner/venv/bin/python /home/rafaelmp/Proyectos/nmap_auto_scanner/scanner.py >> /home/rafaelmp/Proyectos/nmap_auto_scanner/logs/cron.log 2>&1
