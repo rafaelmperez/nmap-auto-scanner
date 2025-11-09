@@ -1,7 +1,5 @@
 # 🔍 nmap-auto-scanner
 =======
-🔍 nmap-auto-scanner
->>>>>>> 6764e4df61f1e1e94f1831768b760d4a100bbd1e
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
